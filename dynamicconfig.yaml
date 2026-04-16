@@ -5,56 +5,45 @@ system.forceSearchAttributesCacheRefreshOnRead:
   - value: true
     constraints: {}
 
-# Search attribute count limits - all known variants
-limit.numKeywordSearchAttributes:
-  - value: 50
+# The actual key used by Temporal 1.25+ for per-type search attribute counts
 limit.numTextSearchAttributes:
   - value: 50
+    constraints: {}
+  - value: 50
+    constraints:
+      namespace: "default"
+limit.numKeywordSearchAttributes:
+  - value: 50
+    constraints: {}
+  - value: 50
+    constraints:
+      namespace: "default"
 limit.numIntSearchAttributes:
   - value: 50
+    constraints: {}
 limit.numDoubleSearchAttributes:
   - value: 50
+    constraints: {}
 limit.numBoolSearchAttributes:
   - value: 50
+    constraints: {}
 limit.numDatetimeSearchAttributes:
   - value: 50
+    constraints: {}
 limit.numKeywordListSearchAttributes:
   - value: 50
-
-limit.typedSearchAttributes.text:
-  - value: 50
-limit.typedSearchAttributes.keyword:
-  - value: 50
-limit.typedSearchAttributes.int:
-  - value: 50
-limit.typedSearchAttributes.double:
-  - value: 50
-limit.typedSearchAttributes.bool:
-  - value: 50
-limit.typedSearchAttributes.datetime:
-  - value: 50
-limit.typedSearchAttributes.keywordList:
-  - value: 50
-
-limit.searchAttributes.numberOfText:
-  - value: 50
-limit.searchAttributes.numberOfKeywords:
-  - value: 50
-limit.searchAttributes.numberOfInt:
-  - value: 50
-limit.searchAttributes.numberOfDouble:
-  - value: 50
-limit.searchAttributes.numberOfBool:
-  - value: 50
-limit.searchAttributes.numberOfDatetime:
-  - value: 50
+    constraints: {}
 
 limit.searchAttributesSizeOfValueLimit:
   - value: 8192
+    constraints: {}
 limit.searchAttributesTotalSizeLimit:
   - value: 409600
+    constraints: {}
 limit.maxSearchAttributesCount:
   - value: 200
+    constraints: {}
 
 frontend.enableUpdateWorkflowExecution:
   - value: true
+    constraints: {}
