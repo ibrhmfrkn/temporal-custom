@@ -4,29 +4,32 @@ limit.maxIDLength:
 system.forceSearchAttributesCacheRefreshOnRead:
   - value: true
     constraints: {}
-limit.searchAttributes.numberOfKeywords:
+limit.searchAttributesNumberOfKeywords:
   - value: 50
     constraints: {}
-limit.searchAttributes.numberOfText:
+limit.searchAttributesNumberOfText:
   - value: 50
     constraints: {}
-limit.searchAttributes.numberOfInt:
+limit.searchAttributesNumberOfInt:
   - value: 50
     constraints: {}
-limit.searchAttributes.numberOfDouble:
+limit.searchAttributesNumberOfDouble:
   - value: 50
     constraints: {}
-limit.searchAttributes.numberOfBool:
+limit.searchAttributesNumberOfBool:
   - value: 50
     constraints: {}
-limit.searchAttributes.numberOfDatetime:
+limit.searchAttributesNumberOfDatetime:
   - value: 50
     constraints: {}
-limit.searchAttributes.sizeOfValue:
+limit.searchAttributesSizeOfValue:
   - value: 8192
     constraints: {}
-limit.searchAttributes.totalSize:
+limit.searchAttributesTotalSize:
   - value: 409600
+    constraints: {}
+limit.maxSearchAttributesCount:
+  - value: 200
     constraints: {}
 frontend.enableUpdateWorkflowExecution:
   - value: true
