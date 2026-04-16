@@ -4,28 +4,31 @@ limit.maxIDLength:
 system.forceSearchAttributesCacheRefreshOnRead:
   - value: true
     constraints: {}
-limit.searchAttributesNumberOfKeywords:
+limit.numKeywordSearchAttributes:
   - value: 50
     constraints: {}
-limit.searchAttributesNumberOfText:
+limit.numTextSearchAttributes:
   - value: 50
     constraints: {}
-limit.searchAttributesNumberOfInt:
+limit.numIntSearchAttributes:
   - value: 50
     constraints: {}
-limit.searchAttributesNumberOfDouble:
+limit.numDoubleSearchAttributes:
   - value: 50
     constraints: {}
-limit.searchAttributesNumberOfBool:
+limit.numBoolSearchAttributes:
   - value: 50
     constraints: {}
-limit.searchAttributesNumberOfDatetime:
+limit.numDatetimeSearchAttributes:
   - value: 50
     constraints: {}
-limit.searchAttributesSizeOfValue:
+limit.numKeywordListSearchAttributes:
+  - value: 50
+    constraints: {}
+limit.searchAttributesSizeOfValueLimit:
   - value: 8192
     constraints: {}
-limit.searchAttributesTotalSize:
+limit.searchAttributesTotalSizeLimit:
   - value: 409600
     constraints: {}
 limit.maxSearchAttributesCount:
