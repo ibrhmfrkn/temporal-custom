@@ -1,0 +1,33 @@
+limit.maxIDLength:
+  - value: 255
+    constraints: {}
+system.forceSearchAttributesCacheRefreshOnRead:
+  - value: true
+    constraints: {}
+limit.searchAttributes.numberOfKeywords:
+  - value: 50
+    constraints: {}
+limit.searchAttributes.numberOfText:
+  - value: 50
+    constraints: {}
+limit.searchAttributes.numberOfInt:
+  - value: 50
+    constraints: {}
+limit.searchAttributes.numberOfDouble:
+  - value: 50
+    constraints: {}
+limit.searchAttributes.numberOfBool:
+  - value: 50
+    constraints: {}
+limit.searchAttributes.numberOfDatetime:
+  - value: 50
+    constraints: {}
+limit.searchAttributes.sizeOfValue:
+  - value: 8192
+    constraints: {}
+limit.searchAttributes.totalSize:
+  - value: 409600
+    constraints: {}
+frontend.enableUpdateWorkflowExecution:
+  - value: true
+    constraints: {}
